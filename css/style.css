@@ -1,0 +1,126 @@
+body p
+{
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 24px;
+}
+.wrap
+{
+  margin:auto;
+  background-color: #FEFCFF;
+}
+.head
+{
+  width: 960px;
+  background: #A1C935;
+  position: fixed;
+  overflow: hidden;
+
+  height:52px;
+}
+.head h2
+{
+  background: url(../image/a2.png);
+  background-size: 300px 52px;
+  text-indent: -999;
+  font-family: 'Audiowide', cursive;
+}
+h2{
+  width:300px;
+  height:52px;
+}
+nav li
+{
+  display: inline;
+  padding-right: 50px;
+  font-size: 17px;
+  font-family: 'chewy', serif;
+  padding-bottom: 20px;
+  padding-top: 12px;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+
+}
+nav a:hover
+{
+  font-size: 30px;
+  color:#FFFFFF;
+  text-decoration: underline;
+}
+.image img{
+  margin-top: 99px;
+  padding:30px 130px 50px 150px;
+  clear: both;
+}
+.maincontent
+{
+  background-color: #D1D0CE;
+  padding-top: 0px;
+}
+.maincontent h1
+{
+  font-family: 'Patua One', cursive;
+  text-transform: uppercase;
+}
+.grid section img{
+  width:300px;
+  height:196px;
+  padding-top: 25px;
+}
+.grid section a
+{
+  text-decoration: none;
+  color: black;
+}
+.grid section a:hover
+{
+  font-size: 30px;
+  color:#800080;
+  text-shadow: 2px 2px white;
+}
+.grid section h3
+{
+  padding-top: 20px;
+  font-family: 'Patua One', cursive;
+  text-align: center;
+}
+.grid section p{
+  padding-bottom:  10px;
+  text-align: justify;
+}
+.column section img{
+  width: 620px;
+  padding-top: 10px;
+}
+.column section h3
+{
+  font-family: 'Patua One', cursive;
+  text-align: center;
+}
+.column{
+  clear: both;
+}
+.col div{
+  margin: 50px;
+  background:#7FFFD4 ;
+}
+.col a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+footer
+{
+  width:960px;
+  margin:auto;
+  background-color: #A1C935;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+}
+footer p{
+  font-size: 12px;
+}
